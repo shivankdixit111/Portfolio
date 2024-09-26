@@ -12,7 +12,7 @@ import codeforcesImg from '../../assets/icons8-codeforces.-programming-competiti
 
 const Skills = () => {
   return (
-    <div id="Skills" className="p-10 md:p-24">
+    <div id="Skills" className="p-10 sm:p-24">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Skills</h1>
       <div className="flex flex-wrap items-center justify-around">
         <div className="flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10">
@@ -37,6 +37,15 @@ const Skills = () => {
           </span>
         </div>
         <div>
+        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
+            <a href="https://www.geeksforgeeks.org/user/dshivank//">
+                <img src={gfgImg} alt='' />
+            </a>
+            <span className="text-white">
+              <h2 className="leading-tight">4 &#11088; @GeeksForGeeks</h2> 
+              <h2 className="mt-1">(max Rating 1824)</h2>
+            </span>
+          </div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
             <a href="https://www.codechef.com/users/dshivank">
                <img className='bg-white' src={codechef} alt="" />
@@ -44,15 +53,6 @@ const Skills = () => {
             <span className="text-white">
               <h2 className="leading-tight"> 3 &#11088; @Codechef</h2> 
               <h2 className="mt-1">(max Rating 1650)</h2>
-            </span>
-          </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <a href="https://www.geeksforgeeks.org/user/dshivank//">
-                <img src={gfgImg} alt='' />
-            </a>
-            <span className="text-white">
-              <h2 className="leading-tight">3 &#11088; @GeeksForGeeks</h2> 
-              <h2 className="mt-1">(max Rating 1669)</h2>
             </span>
           </div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">

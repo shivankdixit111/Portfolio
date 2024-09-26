@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div id='Footer' className='text-white bg-[#465697] p-10 md:p-12 items-center justify-around flex'>
         <div>
-            <h1 className='text-2xl md:text-6xl font-bold'>Contact</h1>
-            <h3 className='text-md md:text-2xl font-normal'>
+            <h1 className='text-2xl sm:text-6xl font-bold'>Contact</h1>
+            <h3 className='text-md sm:text-2xl font-normal'>
                 Feel free to reach out!
             </h3>
         </div>
