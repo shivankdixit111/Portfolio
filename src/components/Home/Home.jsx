@@ -11,7 +11,9 @@ const Home = () => {
                develop web applications, building my full-stack skills, and enjoy solving complex problems through competitive programming. " 
            </p>
             <button className='mt-5 md:md-10 py-2 px-3 text-sm md:text-sm md:text-lg md:py-2 md:px-4  text-white
-               hover:opacity-85 duration-300 hover:scale-195 font-semibold rounded-3xl bg-[#465697]'>Download my resume</button>
+               hover:opacity-85 duration-300 hover:scale-195 font-semibold rounded-3xl bg-[#465697]'>
+                <a href="https://drive.google.com/file/d/1zW0SMCPMBiwYAn78qOmEhcoYyhAuqmfL/view?usp=drive_link">Download my resume--</a>
+            </button>
         </div> 
            <div className='w-1/5'>  
                  <img className='img-fluid. max-width: 100%; rounded-full' src={avtarImg} alt="" /> 
