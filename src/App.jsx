@@ -10,8 +10,7 @@ function App() {
   return (
     <> 
        <div className=' bg-[#171d32] h-auto w-full overflow-hidden'>
-          <Navbar/>
-          <h1>Hello</h1>
+          <Navbar/> 
           <Home/>
           <Projects/>
           <Skills/>

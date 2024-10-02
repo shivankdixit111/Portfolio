@@ -1,5 +1,5 @@
 import React from 'react' 
-import avtarImg from '../../assets/7358653-removebg-preview.png'  
+// import avtarImg from '../../assets/7358653-removebg-preview.png'  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { } from  '@fortawesome/free-brands-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
