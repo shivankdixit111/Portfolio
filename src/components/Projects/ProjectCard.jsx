@@ -3,8 +3,8 @@ import ProjectBackgroundImg from '../../assets/photo-C8q0KQHG.webp'
 
 const ProjectCard = ({title,main,url, demo, srcCode}) => {
   return (
-    <div className='flex flex-col justify-between p-3 my-3 mx-3 md:p-6 w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl'>
-        <img className='p-4' src={url} alt="" />
+    <div className='flex flex-col hover:scale-105 justify-between p-3 my-3 mx-3 md:p-6 w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl'>
+        <img className='p-4 hover:scale-100' src={url} alt="" />
         <h3 className='px-4 text-xl md:text-2xl font-bold leading-tight'>{title}</h3>
         <p className='px-4 py-2 font-extralight text-md md:text-md leading-normal '>{main}</p>
         <div>

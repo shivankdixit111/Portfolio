@@ -13,7 +13,7 @@ const Navbar = () => {
          <span className = 'text-xl font-bold tracking-wide'>Portfolio</span>
             <ul className = {`${menu? 'block' : 'hidden'} mx-24 px-2 py-2 md:mt-5 mt-4 font-semibold bg-black rounded-xl bg-opacity-0 md:border-none  text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}>
                 <a href='#About'>
-                  <li className = "text-md transition-all duraion-300 p-1 md:p-0">About</li>
+                  <li className = "text-md transition-all duraion-300 p-1 md:p-0 shadow-2xl">About</li>
                 </a>
                 <a href='#Skills'>
                   <li className = "text-md transition-all duraion-300 p-1 md:p-0">Skills</li>

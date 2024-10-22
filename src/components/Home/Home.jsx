@@ -12,11 +12,11 @@ const Home = () => {
            </p>
             <button className='mt-5 md:md-10 py-2 px-3 text-sm md:text-sm md:text-lg md:py-2 md:px-4  text-white
                hover:opacity-85 duration-300 hover:scale-195 font-semibold rounded-3xl bg-[#465697]'>
-                <a href="https://drive.google.com/file/d/1-KSKZrGq-ogRVyOxU6s2F4m3VsWGqlVj/view?usp=sharing">Download my resume</a>
+                <a href="https://drive.google.com/file/d/1-KSKZrGq-ogRVyOxU6s2F4m3VsWGqlVj/view?usp=sharing" className='hover:shadow-lg'>Download my resume</a>
             </button>
         </div> 
            <div className='w-1/5'>  
-                 <img className='img-fluid. max-width: 100%; rounded-full' src={avtarImg} alt="" /> 
+                 <img className='img-fluid. max-width: 100%; rounded-full hover:scale-110' src={avtarImg} alt="" /> 
            </div>
         {/* </div> */}
     </div>
