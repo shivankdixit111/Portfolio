@@ -26,7 +26,7 @@ const Projects = () => {
            <ProjectCard title='Simon Game' 
               main='Developed an interactive Simon Game using HTML, CSS, JavaScript, and Bootstrap, focusing on user engagement and responsive design' 
               url = {simonImg}
-              demo = {'https://shivankdixit111.github.io/Simongame/'}
+              demo = {'https://shivankdixit111.github.io/Simongame'}
               srcCode = {'https://github.com/shivankdixit111/Simongame'}
            />
         </div>
