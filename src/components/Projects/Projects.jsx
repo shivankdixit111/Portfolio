@@ -21,7 +21,7 @@ const Projects = () => {
               main='Built an interactive music learning platform using Acertenity UI, Next.js, and TypeScript, offering an intuitive and responsive user experience.' 
               url = {musicSchoolImg}
               demo = 'https://shivankdixit111.github.io/music_school/'
-              srcCode = 'https://github.com/shivankdixit111/music_school'
+              srcCode = 'https://music-school-drauz7byw-shivank-dixits-projects.vercel.app/'
             />
            <ProjectCard title='Simon Game' 
               main='Developed an interactive Simon Game using HTML, CSS, JavaScript, and Bootstrap, focusing on user engagement and responsive design' 
